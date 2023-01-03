@@ -1,0 +1,73 @@
+	Spring Core
+		DI (Dependency Injection)
+		IoC (Inversion of Control)
+
+		spring-core
+		spring-beans
+		spring-context
+		spring-spel
+
+		
+		Metadata Configuration —> IoC Container —> Fully Configured System / App
+					       POJO	  —>
+
+		beans-config.xml
+			<beans>
+				<bean id=“order1” class=“com.labs.spring.core.Order” >
+					<!— constructor injection —>
+					<constructor-arg name=“item” ref=“item1” />
+					<property name=“id” value=“100” />
+					<!— setter injection —>
+					<property name=“item” ref=“item1” />
+				</bean>
+
+				<bean id=“item1” class=“com.labs.spring.core.Item”  factory-bean=“itemFactory” factory-method=“createItem”>
+					<constructor-arg name=“id” value=“10” />
+					<constructor-arg name=“name” value=“Pizza” />
+				</bean>
+
+				<bean id=“itemFactory” class=“com.labs.spring.core.ItemFactory” />
+			</beans>
+
+		public class Order {
+			private Item item;
+			public Order(Item item) {
+				this.item = item;
+			}
+
+			public void setItem(Item item) {
+				this.item = item;
+			}
+
+			public Item getItem() {
+				return this.item;
+			}	
+		}
+
+	Container Instantiation
+		BeanFactory
+			ClassPathResource
+			FileSystemResource
+		ApplicationContext
+			ClassPathXml
+			FilePathXml
+
+	Bean Instantiation
+		Constructor
+		Static Factory
+		Instance Factory
+
+	Bean Injection
+		Setter Injection
+		Constructor Injection
+
+	Bean Scopes
+		Singleton
+		Prototype
+		Request
+		Session
+		Application
+
+	Lazy Initializaiton
+
+	Autowiring

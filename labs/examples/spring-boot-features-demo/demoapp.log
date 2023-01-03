@@ -1,0 +1,7 @@
+2022-11-23 13:51:54.788  INFO 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : Starting SpringBootFeaturesDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 7534 (/Users/saravana/Desktop/Training/futurense_java-fullstack/labs/examples/spring-boot-features-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/futurense_java-fullstack/labs/examples/spring-boot-features-demo)
+2022-11-23 13:51:54.790  INFO 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 13:51:55.746  INFO 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : Started SpringBootFeaturesDemoApplication in 1.842 seconds (JVM running for 2.625)
+2022-11-23 13:51:55.758  INFO 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : INFO: Welcome to Spring Boot!!!
+2022-11-23 13:51:55.759  WARN 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : WARN: Welcome to Spring Boot!!!
+2022-11-23 13:51:55.759 ERROR 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : ERROR: Welcome to Spring Boot!!!
+2022-11-23 13:51:55.759  INFO 7534 --- [main] .e.s.b.SpringBootFeaturesDemoApplication : Manish Hurray!!! Account Opened.

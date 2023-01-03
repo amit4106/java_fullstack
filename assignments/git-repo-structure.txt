@@ -1,0 +1,32 @@
+ff13_javafullstack
+	|
+	|____	labs
+			|
+			|__spring
+					|
+					|___ spring-labs
+			|
+			|__sboot
+					|
+					|___ sboot-labs
+
+	|
+	|____ 	assignments
+				|
+				|__java				
+					|
+					|___ empapp-with-jdbc
+					|
+					|___ empapp-with-hibernate
+
+				|
+				|__spring					
+					|
+					|___ empapp-with-spring					
+
+				|
+				|__sboot						
+					|
+					|___ empapp-with-boot
+					|
+					|___ empapp-with-rest

@@ -1,0 +1,73 @@
+	Java Language Basics
+	Data Types
+	Control Structures
+	Loops
+	Strings
+	Arrays
+	Methods
+	Package
+	Access Modifiers
+	Object Oriented Programming Concepts
+		Class
+		Object
+		Abstraction
+		Encapsulation
+		Inheritance
+		Polymorphism
+	Collections Framework
+		List - Vector, ArrayList, LinkedList
+		Set - HashSet, TreeSet, LinkedHashSet
+		Queue - Stack, Queue
+		Map - Hashtable, HashMap, HashTree, LinkedHashMap
+	Multi Threading
+		Implement Runnable Interface
+		Extend Thread class
+		Implement Callable Interface
+		Executor Service
+		Synchronisation
+	Exception Handling
+		try catch
+		throws
+		throw
+		try with resources
+	
+	Lambda Expressions
+		Functional Interfaces
+			Predicate
+			Function
+			Consumer
+			Supplier
+			Unary
+	Stream API
+		Input -> Intermediate Operations (Map, Filter, Sort, FlatMap, etc..) -> Terminal Operations (foreach, reduce, collect, sum,, etc..) -> Output
+	
+	I/O Stream
+		ByteStream
+		CharacterStream
+
+	NIO
+
+	Generics
+	
+	Annotations
+
+JDBC
+	Load Driver (Optional)
+	Get Connection
+	Create Statement / Prepared Statement
+	Execute Query
+	Get Resultset
+	Access Data
+
+ORM
+	Hibernate
+		Configuration - hibernate.cfg.xml | account.hbm.xml
+		Create SessionFactory
+		Create Session
+		Perform CRUD operation
+
+	JPA
+		Create Persistence object - persistence.xml
+		Create EntityManager Factory
+		Create EntityManager
+		Perform CRUD operation
